@@ -5,3 +5,22 @@ body {
     color: $color-grey-dark;
     padding: 3rem;
 }
+
+.heading-primary {
+    color: white;
+    text-transform: uppercase;
+
+    &--main {
+        display: block;
+        font-size: 4rem;
+        font-weight: 700;
+        letter-spacing: 1.75rem;
+    }
+
+    &--sub {
+        display: block;
+        font-size: 1.1rem;
+        font-weight: 400;
+        letter-spacing: 1rem;
+    }
+}
