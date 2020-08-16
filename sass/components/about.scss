@@ -1,0 +1,15 @@
+.about-image {
+    position: relative;
+    left: 15%;
+
+    &__photo {
+        border-radius: 50%;
+        position: absolute;
+        width: 55%;
+        
+    }
+}
+
+.about-info {
+    margin-top: 25%;
+}
