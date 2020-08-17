@@ -2,10 +2,42 @@
     // background-color: $color-primary;
     background-image: linear-gradient(to bottom, black, $color-primary);
     color: white;
-    padding: 6.5rem 0 30rem 0;
+    padding: 6.5rem 0 25rem 0;
+    margin: -10rem;
+    transform: skewY(-7deg);
+
+    & > * {
+        transform: skewY(7deg);
+    }
 }
 
 .section-features {
     background-color: $color-primary;
     color: white;
+    padding: 13rem 0 15rem 0;
+}
+
+.section-footer {
+    background-color: $color-primary;
+    padding: 0 2rem 2rem;
+    font-size:1.5rem;
+    line-height:2.4rem;
+    color: white;
+
+    &__heading {
+        font-size: 1.5rem;
+    }
+
+    &__text {
+        font-size: 1.2rem;
+    }
+
+    &-links {
+        list-style: none;
+    }
+
+    &-links a {
+        text-decoration:none;
+        color: white;
+    }
 }

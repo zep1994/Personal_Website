@@ -2,20 +2,19 @@ body {
   font-family: sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  color: #777;
-  padding: 3rem; }
+  color: #777; }
 
 .heading-primary {
   color: white;
   text-transform: uppercase; }
   .heading-primary--main {
     display: block;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 700;
     letter-spacing: 1.75rem; }
   .heading-primary--sub {
     display: block;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 400;
     letter-spacing: 1rem; }
 
@@ -68,7 +67,8 @@ body {
 
 .about-image {
   position: relative;
-  left: 15%; }
+  left: 15%;
+  padding: 5rem; }
   .about-image__photo {
     border-radius: 50%;
     position: absolute;
@@ -166,7 +166,7 @@ body {
       margin-bottom: 3rem; }
 
 .header {
-  height: 95vh;
+  height: 100vh;
   background-image: url(../img/photo8.jpg);
   background-size: cover;
   filter: grayscale(100%);
@@ -209,8 +209,29 @@ body {
 .section-about {
   background-image: linear-gradient(to bottom, black, #313A3A);
   color: white;
-  padding: 6.5rem 0 30rem 0; }
+  padding: 6.5rem 0 25rem 0;
+  margin: -10rem;
+  transform: skewY(-7deg); }
+  .section-about > * {
+    transform: skewY(7deg); }
 
 .section-features {
   background-color: #313A3A;
+  color: white;
+  padding: 13rem 0 15rem 0; }
+
+.section-footer {
+  background-color: #313A3A;
+  padding: 0 2rem 2rem;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
   color: white; }
+  .section-footer__heading {
+    font-size: 1.5rem; }
+  .section-footer__text {
+    font-size: 1.2rem; }
+  .section-footer-links {
+    list-style: none; }
+  .section-footer-links a {
+    text-decoration: none;
+    color: white; }
