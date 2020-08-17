@@ -1,0 +1,88 @@
+.card {
+    position: relative;
+    height: 52rem;
+
+    &__side {
+        height: 50rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        backface-visibility: hidden;
+        border-radius: 3px;
+        overflow: hidden;
+        box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+
+        &--front {
+            background-color: $color-white;
+        }
+    
+    }
+    
+    &__picture {
+        background-size: cover;
+        height: 23rem;
+        filter: grayscale(100%);
+
+        &--1 {
+            background-image: url(../img/photo2.jpg);
+        }
+
+        &--2 {
+            background-image: url(../img/photo3.jpg);
+        }
+
+        &--3 {
+            background-image: url(../img/photo4.jpg);
+        }
+    }
+
+    &__heading {
+        font-size: 2.0rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: right;
+        color: $color-white;
+        position: absolute;
+        top: 14rem;
+        right: 2rem;
+        width: 75%;
+    }
+
+    &__heading-span {
+        padding: 1rem 1.5rem;
+        --webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+
+        &--1 {
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($color-grey-light-1, .85),
+                rgba($color-primary, .85));
+        }
+
+        &--2 {
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($color-grey-light-1, .85),
+                rgba($color-primary, .85));
+        }
+
+        &--3 {
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($color-grey-light-1, .85),
+                rgba($color-primary, .85));
+        }
+    }
+
+    &__text {
+        padding: 3rem;
+        font-size: 1.2em;
+        color: black;
+    
+        &:not(:last-child) {
+            margin-bottom: 3rem;
+        }
+    }
+}

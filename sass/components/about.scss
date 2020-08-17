@@ -6,10 +6,13 @@
         border-radius: 50%;
         position: absolute;
         width: 55%;
+        box-shadow: $box-shadow-default;
         
     }
 }
 
 .about-info {
     margin-top: 25%;
+    margin-left: 10%;
+    font-size: 1.2rem;
 }

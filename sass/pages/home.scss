@@ -1,4 +1,11 @@
 .section-about {
-    background-color: $color-grey-light-1;
-    padding: 8rem 0 25rem 0;
+    // background-color: $color-primary;
+    background-image: linear-gradient(to bottom, black, $color-primary);
+    color: white;
+    padding: 6.5rem 0 30rem 0;
+}
+
+.section-features {
+    background-color: $color-primary;
+    color: white;
 }
