@@ -1,24 +1,25 @@
 .section-about {
     // background-color: $color-primary;
-    background-image: linear-gradient(to bottom, black, $color-primary);
+    background-image: linear-gradient(to bottom, black, $primary);
     color: white;
-    padding: 6.5rem 0 25rem 0;
+    padding: 2rem 0 25rem 0;
     margin: -10rem;
     transform: skewY(-7deg);
 
     & > * {
         transform: skewY(7deg);
+        margin-top: 15rem;
     }
 }
 
 .section-features {
-    background-color: $color-primary;
+    background-color: $primary;
     color: white;
-    padding: 13rem 0 15rem 0;
+    padding: 16rem 0 15rem 0;
 }
 
 .section-footer {
-    background-color: $color-primary;
+    background-color: $primary;
     padding: 0 2rem 2rem;
     font-size:1.5rem;
     line-height:2.4rem;

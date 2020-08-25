@@ -11,10 +11,10 @@
         backface-visibility: hidden;
         border-radius: 3px;
         overflow: hidden;
-        box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+        box-shadow: 0 1.5rem 4rem rgba($black, .15);
 
         &--front {
-            background-color: $color-white;
+            background-color: $white;
         }
     
     }
@@ -42,7 +42,7 @@
         font-weight: 300;
         text-transform: uppercase;
         text-align: right;
-        color: $color-white;
+        color: $white;
         position: absolute;
         top: 14rem;
         right: 2rem;
@@ -57,22 +57,22 @@
         &--1 {
             background-image: linear-gradient(
                 to right bottom,
-                rgba($color-grey-light-1, .85),
-                rgba($color-primary, .85));
+                rgba($grey-light-1, .85),
+                rgba($primary, .85));
         }
 
         &--2 {
             background-image: linear-gradient(
                 to right bottom,
-                rgba($color-grey-light-1, .85),
-                rgba($color-primary, .85));
+                rgba($grey-light-1, .85),
+                rgba($primary, .85));
         }
 
         &--3 {
             background-image: linear-gradient(
                 to right bottom,
-                rgba($color-grey-light-1, .85),
-                rgba($color-primary, .85));
+                rgba($grey-light-1, .85),
+                rgba($primary, .85));
         }
     }
 

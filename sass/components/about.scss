@@ -1,13 +1,14 @@
 .about-image {
     position: relative;
     left: 15%;
-    padding: 5rem;
+    margin-top: 5rem;
 
     &__photo {
         border-radius: 50%;
+        filter: grayscale(100%);
         position: absolute;
         width: 55%;
-        box-shadow: $box-shadow-default;
+        box-shadow: 0 1.5rem 2rem rgba($color: #000000, $alpha: .15);
         
     }
 }

@@ -2,9 +2,10 @@
   "name": "personal_website",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "sass": "sass --watch sass/main.scss:public/css/style.css",
+    "node": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/zep1994/Personal_Website#readme",
   "dependencies": {
-    "node-sass": "^4.14.1"
+    "express": "^4.17.1",
+    "sass": "^1.26.10"
   }
 }
