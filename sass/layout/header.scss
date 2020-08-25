@@ -1,6 +1,6 @@
 .header {
     height: 100vh;
-    background-image: url(../img/photo2.jpg);
+    background-image: url(../img/photo3.jpg);
     background-size: cover;
     filter: grayscale(100%);
     background-position: top;
@@ -11,8 +11,11 @@
         position: absolute;
         top: 40%;
         left: 50%;
-        transform: translate( -55%, -50%); 
+        transform: translate( -50%, -50%); 
         text-align: center;
-        
+        border: 1px solid white;
+        padding: 7rem;
+        box-shadow: $box-shadow-2;
+        background-color: $grey-light-2;
     }
 }
