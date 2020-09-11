@@ -4,8 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "sass": "sass --watch sass/main.scss:public/css/style.css",
-    "node": "node app.js"
+    "sass": "sass --watch sass/main.scss:public/css/style.css"
   },
   "repository": {
     "type": "git",
@@ -18,7 +17,6 @@
   },
   "homepage": "https://github.com/zep1994/Personal_Website#readme",
   "dependencies": {
-    "express": "^4.17.1",
     "sass": "^1.26.10"
   }
 }
