@@ -3,11 +3,16 @@
 require_once "router.php";
 
 route('/', function () {
-  return view('index.php');
+
 });
 
 route('/about', function () {
   return header("Location: http://localhost:8000/about.php");
+    die();
+});
+
+route('/hello', function () {
+  return header("Location: http://localhost:8000/hello.php");
     die();
 });
 
@@ -86,8 +91,9 @@ dispatch($action);
                             </h3>
 
                             <p class="card__text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Application Developer at Ergon, Inc with a passion for innovation in the workplace.
+                                I bring a thriving creative spirit into work and greatly enjoy solving challenges.
+                                 With experience in web-based technologies and business background I can bring a unique perspective to a team.
                             </p>
                         </div>
                     </div>
@@ -104,8 +110,9 @@ dispatch($action);
                             </h3>
 
                             <p class="card__text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                              Application Developer at Ergon, Inc with a passion for innovation in the workplace.
+                              I bring a thriving creative spirit into work and greatly enjoy solving challenges.
+                               With experience in web-based technologies and business background I can bring a unique perspective to a team.
                             </p>
                         </div>
                     </div>
@@ -122,8 +129,9 @@ dispatch($action);
                             </h3>
 
                             <p class="card__text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                              Application Developer at Ergon, Inc with a passion for innovation in the workplace.
+                              I bring a thriving creative spirit into work and greatly enjoy solving challenges.
+                               With experience in web-based technologies and business background I can bring a unique perspective to a team.
                             </p>
                         </div>
                     </div>
