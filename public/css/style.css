@@ -50,6 +50,11 @@ body {
   color: #000;
   font-size: 4rem;
 }
+.heading-about__top {
+  font-size: 8rem;
+  color: #000;
+}
+
 *,
 *::after,
 *::before {
