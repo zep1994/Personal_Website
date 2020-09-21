@@ -50,10 +50,6 @@ body {
   color: #000;
   font-size: 4rem;
 }
-.heading-about__top {
-  color: orange;
-}
-
 *,
 *::after,
 *::before {
@@ -245,10 +241,11 @@ body {
   position: relative;
   color: white;
 }
-.header-about__text-box--about {
+.header-about__text-box {
   position: absolute;
   top: 40%;
   left: 20%;
+  transform: translate(-50%, -50%);
   text-align: center;
   border: 1px solid white;
   padding: 7rem;

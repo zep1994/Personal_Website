@@ -31,10 +31,11 @@
   position: relative;
   color: white;
 
-  &__text-box--about {
+  &__text-box {
       position: absolute;
       top: 40%;
       left: 20%;
+      transform: translate(-50%, -50%);
       text-align: center;
       border: 1px solid white;
       padding: 7rem;

@@ -11,7 +11,7 @@
 </head>
 <body>
   <header class="header-about">
-    <div class="header__text-box">
+    <div class="header-about__text-box">
       <h1 class="heading-about">
         <div class="heading-about__top">
           Designer /
