@@ -49,3 +49,13 @@ body {
         margin-bottom: 3rem;
     }
 }
+
+//ABOUT PAGE
+.heading-about {
+  color: $black;
+  font-size: 4rem;
+
+  &__top {
+    color: orange;
+  }
+}

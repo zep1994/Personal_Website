@@ -46,6 +46,14 @@ body {
   margin-bottom: 3rem;
 }
 
+.heading-about {
+  color: #000;
+  font-size: 4rem;
+}
+.heading-about__top {
+  color: orange;
+}
+
 *,
 *::after,
 *::before {
@@ -221,6 +229,26 @@ body {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
+  border: 1px solid white;
+  padding: 7rem;
+  box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.45);
+  background-color: rgba(109, 98, 98, 0.616);
+}
+
+.header-about {
+  height: 100vh;
+  background-color: #f1d592;
+  background-size: cover;
+  filter: grayscale(80%);
+  background-position: top;
+  position: relative;
+  color: white;
+}
+.header-about__text-box--about {
+  position: absolute;
+  top: 40%;
+  left: 20%;
   text-align: center;
   border: 1px solid white;
   padding: 7rem;
