@@ -16,9 +16,27 @@
         <div class="heading-about__top">
           Designer /
         </div>
-         Developer <br /> Entreprenuer
+        <div class="heading-about__sub">
+          Developer /<br />
+          <div class="heading-about__sub">
+            Entreprenuer
+          </div>
+        </div>
       </h1>
     </div>
+
+    <!-- Right Side -->
+    <div class="header-about__name">
+      @Thomas_Matlock
+    </div>
+
+    <div class="header-about__year">
+      2020
+    </div>
   </header>
+
+  <section class="section-about__info">
+
+  </section>
 </body>
 </html>

@@ -53,10 +53,16 @@ body {
 //ABOUT PAGE
 .heading-about {
   color: $black;
-  font-size: 4rem;
+  font-size: 6rem;
+  text-align: right;
 
   &__top {
-    font-size: 8rem;
     color: $black;
+    text-transform: uppercase;
+  }
+
+  &__sub {
+    text-transform: uppercase;
+    margin: -3rem 0;
   }
 }

@@ -48,11 +48,16 @@ body {
 
 .heading-about {
   color: #000;
-  font-size: 4rem;
+  font-size: 6rem;
+  text-align: right;
 }
 .heading-about__top {
-  font-size: 8rem;
   color: #000;
+  text-transform: uppercase;
+}
+.heading-about__sub {
+  text-transform: uppercase;
+  margin: -3rem 0;
 }
 
 *,
@@ -240,9 +245,7 @@ body {
 .header-about {
   height: 100vh;
   background-color: #f1d592;
-  background-size: cover;
-  filter: grayscale(80%);
-  background-position: top;
+  filter: grayscale(65%);
   position: relative;
   color: white;
 }
@@ -252,10 +255,23 @@ body {
   left: 20%;
   transform: translate(-50%, -50%);
   text-align: center;
-  border: 1px solid white;
   padding: 7rem;
-  box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.45);
-  background-color: rgba(109, 98, 98, 0.616);
+}
+.header-about__name {
+  position: absolute;
+  top: 60%;
+  right: 10%;
+  color: #000;
+  font-size: 4rem;
+}
+.header-about__year {
+  position: absolute;
+  top: 2%;
+  right: 5%;
+  color: #000;
+  font-size: 4rem;
+  transform: rotate(90deg);
+  font-weight: lighter;
 }
 
 .row {
@@ -332,6 +348,12 @@ body {
 .section-footer-links a {
   text-decoration: none;
   color: white;
+}
+
+.section-about__info {
+  padding: 35rem;
+  background-color: #f1d592;
+  filter: grayscale(65%);
 }
 
 /*# sourceMappingURL=style.css.map */
