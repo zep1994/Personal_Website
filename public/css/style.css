@@ -259,7 +259,7 @@ body {
 }
 .header-about__name {
   position: absolute;
-  top: 60%;
+  top: 75%;
   right: 10%;
   color: #000;
   font-size: 4rem;

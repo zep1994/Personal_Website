@@ -36,7 +36,7 @@
   </header>
 
   <section class="section-about__info">
-
+      
   </section>
 </body>
 </html>
